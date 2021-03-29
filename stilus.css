@@ -1,0 +1,99 @@
+fieldset
+{
+    border: none;
+}
+
+p
+{
+    display: inline-block;
+}
+
+.szurke
+{
+    border: 2px solid rgb(173, 173, 173);
+}
+
+.piros
+{
+    border: 2px solid rgb(192, 2, 2);
+}
+
+.margin20
+{
+    margin-left: 25px;
+}
+
+.margintop
+{
+margin-top: -35px;
+}
+
+#margin10
+{
+ margin-left: 10px;
+}
+
+#Nev
+{
+    width: 240px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#Telefonszam1
+{
+    width: 80px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#Telefonszam2
+{
+    width: 160px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#Iranyitoszam
+{
+    width: 160px;
+    padding: 10px;
+    margin-top: 5px;
+} 
+
+#Varos
+{
+    width: 320px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#cim
+{
+    width:320px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#orszag
+{
+    width: 160px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#mentes
+{
+    background-color: rgb(112, 187, 37);
+    border: 2px solid olivedrab;
+    width: 508px;
+    height: 40px;
+    margin-top: -15px;
+    color: white;
+}
+
+label,input,select
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}

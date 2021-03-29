@@ -1,0 +1,63 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Urlap</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <h3>Szállítási cím módosítása</h3>
+    <hr>
+    <form action="">
+        <fieldset>
+            <p>
+                <label for="Név">Név</label><br>
+                <input type="text" name="Név" id="Nev" class="piros">
+            </p>
+            <p id="margin10">
+                <label for="Telefonszam">Telefonszám</label><br>
+                <label> <select name="telefonszam" id="telefonszam1" class="szurke">
+                        <option value=""></option>
+                        <option value="36" selected>36</option>
+                        <option value="06">06</option>
+                    </select></label>
+                <input type="tel" name="Telefonszam" id="Telefonszam2" size="10" class="piros">
+            </p>
+        </fieldset>
+        <fieldset class="margintop">
+            <p>
+                <label for="Iranyitoszam">Irányítószám</label><br>
+                <input type="number" name="Iranyitoszam" id="Iranyitoszam" placeholder="4032" class="szurke">
+            </p>
+            <p class="margin20">
+                <label for="varos">Város</label><br>
+                <label><select name="varos" id="varos" class="szurke">
+                        <option value="Debrecen">Debrecen</option>
+                        <option value="Budapest">Budapest</option>
+                    </select></label>
+            </p>
+        </fieldset>
+        <fieldset class="margintop">
+            <p>
+                <label for="Orszag" required>Ország</label><br>
+                <label for="Cim">
+                    <Select class="szurke" id="orszag">
+                        <option value="Magyarorszag">Magyarország</option>
+                        <option value="lengyelorszag">lengyelország</option>
+                    </Select>
+                </label>
+            </p>
+            <p class="margin20">
+                <label for="Cim">Cím</label><br>
+                <input type="text" name="Cim" id="Cim" class="szurke">
+
+            </p>
+        </fieldset>
+        <fieldset>
+            <input type="submit" name="mentés" id="mentes" value="Mentés">
+        </fieldset>
+    </form>
+</body>
+
+</html>
